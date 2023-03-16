@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(19, 17, 17);
+    color: rgb(106, 1, 204);
+    margin: 0;
+    padding: 0;
+}
+header {
+    text-align: center;
+    font-size: 2rem;
+}
+div {
+    text-align: center;
+    margin: 0 auto;
+    width: 50vw;
+}
+#ptbr {
+    background-color: green;
+    height: 32vh;
+}
+#enus {
+    background-color: red;
+    height: 32vh;
+}
+#flagbrazil {
+    width: 150px;
+    height: 150px;
+    margin-top: 25px;
+}
+#flagusa {
+    width: 150px;
+    height: 150px;
+    margin-top: 25px;
+}
+button {
+    background-color: blueviolet;
+    font-size: 1.5rem;
+    width:300px;
+    height: 50px;
+    border-radius: 12px;
+}
