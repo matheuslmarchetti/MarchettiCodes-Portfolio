@@ -54,6 +54,12 @@ button {
 #buttonportuguese {
     background-color: transparent;
 }
+#buttonportuguese:hover {
+    color: rgb(12, 10, 10);
+}
 #buttonenglish {
     background-color: transparent;
+}
+#buttonenglish:hover {
+    color: rgb(184, 180, 180);
 }
