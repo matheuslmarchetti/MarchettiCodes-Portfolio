@@ -11,20 +11,23 @@ header {
 div {
     text-align: center;
     margin: 0 auto;
-    width: 50vw;
+    width: 35vw;
     height: 35vh;
 }
-#ptbr {
-    background: linear-gradient(90deg, yellow, green);
+#divptbr {
+    box-shadow:  inset 1px 1px 2px 1px rgb(208, 243, 12), inset 1px 1px 5px 1px rgb(1, 156, 9);
 }
-#ptbr:hover {
-    background: linear-gradient(180deg, green, yellow);
+#divptbr:hover {
+    background: linear-gradient(110deg, rgb(253, 237, 8), rgb(2, 177, 11));
+    box-shadow: none;
 }
-#enus {
-    background: linear-gradient(90deg, red, blue);
+#divenus {
+    box-shadow:  inset 1px 1px 2px 1px rgb(189, 3, 3), inset 1px 1px 5px 1px rgb(16, 16, 243);
+    margin-top: 10px;
 }
-#enus:hover {
-    background: linear-gradient(180deg, blue, red);
+#divenus:hover {
+    background: linear-gradient(110deg, rgb(2, 2, 161), rgb(129, 2, 2));
+    box-shadow: none;
 }
 #flagbrazil {
     width: 150px;
@@ -37,18 +40,19 @@ div {
     margin-top: 25px;
 }
 button {
+    background-color: transparent;
     font-size: 1.5rem;
-    width:300px;
+    width:220px;
     height: 35px;
     border-radius: 12px;
-    margin-top: 10px;
+    margin: 10px auto 0;
     cursor: pointer;
     border: none;
     color: white;
 }
-#portuguese {
-    background: linear-gradient(90deg, yellow, green);
+#buttonportuguese {
+    background-color: transparent;
 }
-#english {
-    background: linear-gradient(90deg, red, blue);
+#buttonenglish {
+    background-color: transparent;
 }
