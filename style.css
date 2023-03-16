@@ -1,6 +1,6 @@
 body {
     background-color: rgb(19, 17, 17);
-    color: rgb(106, 1, 204);
+    color: white;
     margin: 0;
     padding: 0;
 }
@@ -17,8 +17,14 @@ div {
 #ptbr {
     background: linear-gradient(90deg, yellow, green);
 }
+#ptbr:hover {
+    background: linear-gradient(180deg, green, yellow);
+}
 #enus {
     background: linear-gradient(90deg, red, blue);
+}
+#enus:hover {
+    background: linear-gradient(180deg, blue, red);
 }
 #flagbrazil {
     width: 150px;
@@ -31,11 +37,18 @@ div {
     margin-top: 25px;
 }
 button {
-    background: linear-gradient(90deg, red, blue);
     font-size: 1.5rem;
     width:300px;
     height: 35px;
     border-radius: 12px;
     margin-top: 10px;
     cursor: pointer;
+    border: none;
+    color: white;
+}
+#portuguese {
+    background: linear-gradient(90deg, yellow, green);
+}
+#english {
+    background: linear-gradient(90deg, red, blue);
 }
