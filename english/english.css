@@ -74,14 +74,14 @@ nav a:hover {
     display: flex;
     justify-content: space-between;
     line-height: 2;
-    width: 105px;
+    width: 90px;
 }
 .selected-lang:before {
     content: "";
     display: block;
     width: 32px;
     height: 32px;
-    background-image: url(../images/flag-brazil.svg);
+    background-image: url(../images/flag-usa.svg);
 }
 .lang-menu > ul {
     margin: 0;
@@ -115,16 +115,16 @@ nav a:hover {
     height: 32px;
     margin-right: 5px;
     vertical-align: middle;
-    /* background-image: url(../images/flag-brazil.svg); */
+    /* background-image: url(../images/flag-usa.svg); */
 }
 .lang-menu > ul > li > a:hover {
     background-color: rgb(54, 59, 59);
 }
-.br:before{
-    background-image: url(../images/flag-brazil.svg);
-}
-.us:before {
+.us:before{
     background-image: url(../images/flag-usa.svg);
+}
+.br:before {
+    background-image: url(../images/flag-brazil.svg);
 }
 /* language */
 
