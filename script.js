@@ -10,3 +10,14 @@ function changeTextenus() {
     document.querySelector("#buttonenglishtext").innerHTML = "English (USA)";
     document.querySelector("#footertext").innerHTML = "Developed by Matheus L. Marchetti";
 }
+
+const BTNPTBR = document.querySelector("#buttonportuguese");
+BTNPTBR.addEventListener("click", portuguesePage);
+    function portuguesePage() {
+        location.href = "portuguese/portuguese.html";
+    }
+const BTNENUS = document.querySelector("#buttonenglish");
+BTNENUS.addEventListener("click", englishPage);
+    function englishPage() {
+        location.href = "english/english.html";
+    }
