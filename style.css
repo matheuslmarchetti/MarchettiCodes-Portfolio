@@ -7,7 +7,10 @@ html {
     padding: 0;
 }
 body {
-    background-color: rgb(14, 13, 13);
+    /* background-color: rgb(14, 13, 13); */
+    background-image: url(https://lh3.googleusercontent.com/pw/AMWts8Aw9uoOxFjCSt0FQWZje4E3cT6vtpN2mD_wnUDUiaeGNjgo8-ozUJpRgl8CrFqmLqPGM3RveGF0U-Bhy84n5C9MbhidjFW2T5EOuiuaM0He-UMFXDWR_lGuN-RdGY92IegmwccslWD7ipUneR5eMB9l=s663-no?authuser=0);
+    background-size: cover;
+    background-repeat: no-repeat;
     color: white;
     text-align: center;
     display: flex;
