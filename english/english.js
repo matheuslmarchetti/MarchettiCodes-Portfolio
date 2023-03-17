@@ -1,13 +1,6 @@
-//Click Flag Redict Page English
-const OPENUS = document.querySelector("select");
-OPENUS.addEventListener("change", englishPage);
-    function englishPage() {
-        location.href = "../english/english.html";
-    }
-//END - Click Button Redict Page English
 //Click Flag Redict Page Portuguese
-const OPPTBR = document.querySelector("select");
-OPPTBR.addEventListener("change", portuguesePage);
+const OPPTBR = document.querySelector(".br");
+OPPTBR.addEventListener("click", portuguesePage);
     function portuguesePage() {
         location.href = "../portuguese/portuguese.html";
     }
