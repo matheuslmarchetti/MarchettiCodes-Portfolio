@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-    --color-header: black;
+    --color-header: rgb(0, 0, 0);
     --color-primary: rgb(20, 20, 20);
-    --color-secondary: rgb(58, 57, 57);
+    --color-secondary: rgb(112, 110, 110);
     --color-tertiary: white;
 }
 
@@ -27,8 +27,7 @@ header {
     width: 100vw;
     min-height: 100px;
     max-height: 100px;
-    /* background-color: var(--color-header); */
-    /* background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(7, 6, 6, 0.918)), url(https://lh3.googleusercontent.com/pw/AMWts8Aw9uoOxFjCSt0FQWZje4E3cT6vtpN2mD_wnUDUiaeGNjgo8-ozUJpRgl8CrFqmLqPGM3RveGF0U-Bhy84n5C9MbhidjFW2T5EOuiuaM0He-UMFXDWR_lGuN-RdGY92IegmwccslWD7ipUneR5eMB9l=s663-no?authuser=0); */
+    background-color: var(--color-header);
     z-index: 1;
 }
 .logo {
@@ -130,7 +129,7 @@ nav a:hover {
 
 /* Main Configuration */
 main {
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.918)), url(https://lh3.googleusercontent.com/pw/AMWts8Aw9uoOxFjCSt0FQWZje4E3cT6vtpN2mD_wnUDUiaeGNjgo8-ozUJpRgl8CrFqmLqPGM3RveGF0U-Bhy84n5C9MbhidjFW2T5EOuiuaM0He-UMFXDWR_lGuN-RdGY92IegmwccslWD7ipUneR5eMB9l=s663-no?authuser=0);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.918)), url(https://lh3.googleusercontent.com/pw/AMWts8Aw9uoOxFjCSt0FQWZje4E3cT6vtpN2mD_wnUDUiaeGNjgo8-ozUJpRgl8CrFqmLqPGM3RveGF0U-Bhy84n5C9MbhidjFW2T5EOuiuaM0He-UMFXDWR_lGuN-RdGY92IegmwccslWD7ipUneR5eMB9l=s663-no?authuser=0);
 }
 a {
     text-decoration: none;
