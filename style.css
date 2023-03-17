@@ -15,10 +15,17 @@ body {
 }
 header {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
-h1 {
-    margin: 10px auto 10px;
+#textwelcome {
+    display: block;
+    margin: 0px auto;
+    color: rgb(248, 246, 246);
+    height: 20px;
+}
+#textpEnUS {
+    display: block;
+    margin-top: 50px;
 }
 main {
     flex: 1 0 auto;
@@ -81,6 +88,7 @@ button {
     margin: 15px auto 10px;
 }
 footer {
+    background-color: rgb(19, 18, 18);
     flex-shrink: 0;
     width: 100%;
     height: 27px;
@@ -95,12 +103,29 @@ footer > p {
 
 /* CSS MOBILE */
 @media only screen and (max-width: 600px) {
-    #textH1EnUS {
-        font-size: 2rem;
+    #textwelcome {
+        font-size: 1.5rem;
     }
 }
 @media only screen and (max-width: 300px) {
-    #textH1EnUS {
-        font-size: 1.5rem;
+    #textwelcome {
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-height: 600px) {
+    div {
+        width: 250px;
+        height: 200px;
+    }
+    #flagbrazil {
+        width: 120px;
+        height: 120px;
+    }
+    #flagusa {
+        width: 120px;
+        height: 120px;
+    }
+    footer > p {
+        font-size: smaller;
     }
 }
