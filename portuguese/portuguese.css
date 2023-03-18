@@ -291,12 +291,12 @@ footer {
         width: 50px;
         height: 50px;
         position: absolute;
-        left: 0%;
+        left: 2%;
     }
 
     #navbar {
         position: absolute;
-        right: 1%;
+        right: 2%;
         animation: none;
     }
 
@@ -371,6 +371,32 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
+    .logo {
+        width: 30px;
+        left: 30px;
+        left: 5%;
+    }
+    #navbar {
+        right: 5%;
+    }
+    .selected-lang {
+        width: 95px;
+    }
+    .selected-lang:before {
+        width: 25px;
+        height: 25px;
+        background-size: 25px;
+    }
+    #welcome-section {
+        padding-top: 120px;
+    }
+    #welcome-section > p {
+        text-align: justify;
+    }
+    .profile-picture {
+        width: 100px;
+        margin-top: 0;
+    }
     #projects h2 {
         font-size: 1.5em;
     }
@@ -398,18 +424,36 @@ footer {
         padding: 0;
     }
     .logo {
-        width: 50px;
-        height: 50px;
-        padding-left: 10px;
+        width: 30px;
+        height: 30px;
+        padding-left: 1px;
     }
     #navbar {
+        font-size: 8pt;
+        padding-right: 2px;
+    }
+    .selected-lang {
+        width: 65px;
+    }
+    .selected-lang:before {
+        width: 16px;
+        height: 16px;
+        background-size: 16px;
+    }
+    .profile-picture {
+        width: 90px;
+        height: auto;
+    }
+    #welcome-section {
+        padding-top: 75px;
+    }
+    #welcome-section > p {
         font-size: 10pt;
-        padding-right: 10px;
     }
     .dynamic-txts {
         font-size: 10pt;
         display: block;
-        width: 215px;
+        width: 240px;
         border-right: 2px solid;
         color: var(--color-tertiary);
         white-space: nowrap;
@@ -423,10 +467,18 @@ footer {
         width: 250px;
     }
     .contact-section-header, #projects > h2 {
-        font-size: 16pt;
+        font-size: 14pt;
         max-width: 275px;
     }
     footer > p {
         font-size: smaller;
+    }
+}
+@media only screen and (max-height: 600px) {
+    #welcome-section > p {
+        font-size: 18px;
+    }
+    .profile-picture {
+        width: 100px;
     }
 }
