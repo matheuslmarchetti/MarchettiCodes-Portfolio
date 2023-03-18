@@ -129,7 +129,7 @@ nav a:hover {
 
 /* Main Configuration */
 main {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.918)), url(https://lh3.googleusercontent.com/pw/AMWts8Aw9uoOxFjCSt0FQWZje4E3cT6vtpN2mD_wnUDUiaeGNjgo8-ozUJpRgl8CrFqmLqPGM3RveGF0U-Bhy84n5C9MbhidjFW2T5EOuiuaM0He-UMFXDWR_lGuN-RdGY92IegmwccslWD7ipUneR5eMB9l=s663-no?authuser=0);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.712), rgb(0, 0, 0)), url(https://lh3.googleusercontent.com/pw/AMWts8Aw9uoOxFjCSt0FQWZje4E3cT6vtpN2mD_wnUDUiaeGNjgo8-ozUJpRgl8CrFqmLqPGM3RveGF0U-Bhy84n5C9MbhidjFW2T5EOuiuaM0He-UMFXDWR_lGuN-RdGY92IegmwccslWD7ipUneR5eMB9l=s663-no?authuser=0);
 }
 a {
     text-decoration: none;
@@ -147,11 +147,10 @@ a:hover {
     align-items: center;
     width: 100%;
     height: 100vh;
-    /* background-color: var(--color-primary); */
 }
 
 .profile-picture {
-    margin-top: 20px;
+    margin-top: 50px;
     max-width: 200px;
     height: auto;
     border-radius: 50%;
@@ -186,6 +185,7 @@ a:hover {
     font-style: italic;
     font-size: 1.2em;
     color: var(--color-tertiary);
+    background-color: rgba(0, 0, 0, 0.61);
 }
 /* End Welcome Section */
 /* Start Projects Section */
