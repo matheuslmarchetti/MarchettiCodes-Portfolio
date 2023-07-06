@@ -7,7 +7,6 @@
     --color-secondary: rgb(112, 110, 110);
     --color-tertiary: white;
 }
-
 * {
     box-sizing: inherit;
     font-family: Jost, sans-serif;
@@ -68,6 +67,7 @@ nav a:hover {
 .lang-menu {
     color: #ffffff;
     margin-top: 5px;
+    padding-left: 10px;
     position: relative;
 }
 .selected-lang {
@@ -119,11 +119,11 @@ nav a:hover {
 .lang-menu > ul > li > a:hover {
     background-color: rgb(54, 59, 59);
 }
-.us:before{
-    background-image: url(../images/flag-usa.svg);
-}
-.br:before {
+.br:before{
     background-image: url(../images/flag-brazil.svg);
+}
+.us:before {
+    background-image: url(../images/flag-usa.svg);
 }
 /* language */
 
@@ -151,34 +151,16 @@ a:hover {
 
 .profile-picture {
     margin-top: 50px;
-    max-width: 200px;
+    max-width: 150px;
     height: auto;
     border-radius: 50%;
 }
 .hello {
     color: white;
 }
-.dynamic-txts {
-    display: block;
-    width: 260px;
-    border-right: 2px solid;
+#textdeveloper{
     color: var(--color-tertiary);
-    white-space: nowrap;
-    overflow: hidden;
-    animation: typing 2s steps(10, end), blinking 0.5s step-end infinite alternate;
 }
-
-@keyframes typing {
-    from {
-        width: 0;
-    }
-}
-@keyframes blinking {
-    50% {
-        border-color: transparent;
-    }
-}
-
 #welcome-section > p {
     max-width: 61vw;
     text-align: center;
@@ -317,6 +299,7 @@ footer {
 
     #welcome-section > p {
         font-size: 0.9em;
+        text-align: justify;
     }
     #projects {
         display: flex;
@@ -383,15 +366,16 @@ footer {
         width: 80px;
     }
     .selected-lang:before {
-        width: 25px;
-        height: 25px;
-        background-size: 25px;
+        width: 22px;
+        height: 22px;
+        background-size: 22px;
+        margin-top: 5px;
     }
     #welcome-section {
-        padding-top: 160px;
+        padding-top: 120px;
     }
     #welcome-section > p {
-        text-align: justify;
+        text-align: center;
     }
     .profile-picture {
         width: 100px;
@@ -429,16 +413,18 @@ footer {
         padding-left: 1px;
     }
     #navbar {
-        font-size: 10pt;
-        padding-right: 2px;
+        font-size: 8pt;
+        padding-right: 10px;
     }
     .selected-lang {
         width: 65px;
     }
     .selected-lang:before {
-        width: 20px;
-        height: 20px;
-        background-size: 20px;
+        width: 15px;
+        height: 15px;
+        background-size: 15px;
+        margin-bottom: 10px;
+        margin-left: 5px;
     }
     .profile-picture {
         width: 90px;
@@ -449,16 +435,10 @@ footer {
     }
     #welcome-section > p {
         font-size: 10pt;
+        text-align: center;
     }
-    .dynamic-txts {
+    #textdeveloper{
         font-size: 10pt;
-        display: block;
-        width: 215px;
-        border-right: 2px solid;
-        color: var(--color-tertiary);
-        white-space: nowrap;
-        overflow: hidden;
-        animation: typing 2s steps(10, end), blinking 0.5s step-end infinite alternate;
     }
     .grid-projects {
         max-width: 250px;
@@ -467,7 +447,7 @@ footer {
         width: 250px;
     }
     .contact-section-header, #projects > h2 {
-        font-size: 16pt;
+        font-size: 14pt;
         max-width: 275px;
     }
     footer > p {

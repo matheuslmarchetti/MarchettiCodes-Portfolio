@@ -7,7 +7,6 @@
     --color-secondary: rgb(112, 110, 110);
     --color-tertiary: white;
 }
-
 * {
     box-sizing: inherit;
     font-family: Jost, sans-serif;
@@ -68,6 +67,7 @@ nav a:hover {
 .lang-menu {
     color: #ffffff;
     margin-top: 5px;
+    padding-left: 10px;
     position: relative;
 }
 .selected-lang {
@@ -151,34 +151,16 @@ a:hover {
 
 .profile-picture {
     margin-top: 50px;
-    max-width: 200px;
+    max-width: 150px;
     height: auto;
     border-radius: 50%;
 }
 .hello {
     color: white;
 }
-.dynamic-txts {
-    display: block;
-    width: 285px;
-    border-right: 2px solid;
+#textdeveloper{
     color: var(--color-tertiary);
-    white-space: nowrap;
-    overflow: hidden;
-    animation: typing 2s steps(10, end), blinking 0.5s step-end infinite alternate;
 }
-
-@keyframes typing {
-    from {
-        width: 0;
-    }
-}
-@keyframes blinking {
-    50% {
-        border-color: transparent;
-    }
-}
-
 #welcome-section > p {
     max-width: 61vw;
     text-align: center;
@@ -317,6 +299,7 @@ footer {
 
     #welcome-section > p {
         font-size: 0.9em;
+        text-align: justify;
     }
     #projects {
         display: flex;
@@ -383,15 +366,16 @@ footer {
         width: 95px;
     }
     .selected-lang:before {
-        width: 25px;
-        height: 25px;
-        background-size: 25px;
+        width: 22px;
+        height: 22px;
+        background-size: 22px;
+        margin-top: 5px;
     }
     #welcome-section {
         padding-top: 120px;
     }
     #welcome-section > p {
-        text-align: justify;
+        text-align: center;
     }
     .profile-picture {
         width: 100px;
@@ -430,15 +414,17 @@ footer {
     }
     #navbar {
         font-size: 8pt;
-        padding-right: 2px;
+        padding-right: 10px;
     }
     .selected-lang {
         width: 65px;
     }
     .selected-lang:before {
-        width: 16px;
-        height: 16px;
-        background-size: 16px;
+        width: 15px;
+        height: 15px;
+        background-size: 15px;
+        margin-right: 5px;
+        margin-bottom: 10px;
     }
     .profile-picture {
         width: 90px;
@@ -449,16 +435,10 @@ footer {
     }
     #welcome-section > p {
         font-size: 10pt;
+        text-align: center;
     }
-    .dynamic-txts {
+    #textdeveloper{
         font-size: 10pt;
-        display: block;
-        width: 240px;
-        border-right: 2px solid;
-        color: var(--color-tertiary);
-        white-space: nowrap;
-        overflow: hidden;
-        animation: typing 2s steps(10, end), blinking 0.5s step-end infinite alternate;
     }
     .grid-projects {
         max-width: 250px;
